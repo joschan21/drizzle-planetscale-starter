@@ -9,6 +9,7 @@
     "lint": "next lint",
     "migrations:generate": "drizzle-kit generate:mysql",
     "migrations:push": "node -r esbuild-register src/lib/db/migrate.ts",
+    "db:push": "drizzle-kit push:mysql",
     "migrations:drop": "drizzle-kit drop --config=drizzle.config.ts"
   },
   "dependencies": {
