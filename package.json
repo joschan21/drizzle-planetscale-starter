@@ -13,13 +13,13 @@
     "migrations:drop": "drizzle-kit drop --config=drizzle.config.ts"
   },
   "dependencies": {
-    "@planetscale/database": "^1.7.0",
+    "@planetscale/database": "^1.10.0",
     "@types/node": "20.2.5",
     "@types/react": "18.2.8",
     "@types/react-dom": "18.2.4",
     "autoprefixer": "10.4.14",
     "dotenv": "^16.1.4",
-    "drizzle-orm": "^0.26.5",
+    "drizzle-orm": "^0.27.2",
     "eslint": "8.42.0",
     "eslint-config-next": "13.4.4",
     "next": "13.4.4",
@@ -31,7 +31,7 @@
     "undici": "^5.22.1"
   },
   "devDependencies": {
-    "drizzle-kit": "^0.18.1",
+    "drizzle-kit": "^0.19.12",
     "esbuild-register": "^3.4.2"
   }
 }
